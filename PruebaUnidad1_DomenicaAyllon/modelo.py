@@ -20,7 +20,6 @@ class Funcion:
     def __str__(self):
         return f"[{self.codigo}] {self.pelicula}, Precio: ${self.precio}, Asientos: {self.asientos}"
 
-
 class ListaFunciones:
     def __init__(self):
         self.listaFunciones = []
